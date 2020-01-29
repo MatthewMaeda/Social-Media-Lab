@@ -1,0 +1,13 @@
+<div class="box">
+    <header>
+        <post-form (submitted)="onSubmit($event)"></post-form>
+    </header>
+    <main>
+        <post
+        [post]="list"
+        (deleted)="onDelete(i)"
+        *ngFor="let list of getPosts(); let i = index;"
+        ></post
+            >
+    </main>
+</div>

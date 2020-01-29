@@ -1,0 +1,27 @@
+#one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding-bottom: 1%;
+}
+.trash-date {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+}
+.date {
+    margin: 3px;
+    background-color: white;
+}
+.trash {
+    background-color: white;
+}
+button {
+    border: none;
+}
+h2, h3 {
+    margin: auto;
+}
